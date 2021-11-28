@@ -16,6 +16,8 @@ const URLS = {
     list: 'https://www.themealdb.com/api/json/v1/1/list.php?c=',
     lookup: 'https://www.themealdb.com/api/json/v1/1/lookup.php?i=',
     category: 'https://www.themealdb.com/api/json/v1/1/filter.php?c=',
+    area: 'https://www.themealdb.com/api/json/v1/1/list.php?a=',
+    exArea: 'https://www.themealdb.com/api/json/v1/1/filter.php?a=',
   },
 };
 

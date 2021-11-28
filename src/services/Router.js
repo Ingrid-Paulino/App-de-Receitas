@@ -9,6 +9,7 @@ import ExplorarComidas from '../pages/ExplorarComidas';
 import ExplorarComidasArea from '../pages/ExplorarComidasArea';
 import ExplorarIngredientes from '../pages/ExplorarIngredients';
 import Login from '../pages/Login';
+import NotFound from '../pages/NotFound';
 import Perfil from '../pages/Perfil';
 import Progresso from '../pages/Progresso';
 import Receitas from '../pages/Receitas';
@@ -35,6 +36,7 @@ function Router() {
         path="/explorar/bebidas/ingredientes"
         component={ ExplorarIngredientes }
       />
+      <Route path="/explorar/bebidas/area" component={ NotFound } />
       <Route path="/explorar/bebidas" component={ ExplorarBebidas } />
       <Route path="/explorar/comidas/area" component={ ExplorarComidasArea } />
       <Route path="/explorar/comidas" component={ ExplorarComidas } />
